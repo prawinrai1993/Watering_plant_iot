@@ -64,6 +64,7 @@ void runBlynkWithChecks() {
     if (!Blynk.connected()) {
       if (WiFi.status() == WL_CONNECTED) {
         BlynkState::set(MODE_CONNECTING_CLOUD);
+        DEBUG_PRINT("Wifi Connected");
       } else {
         BlynkState::set(MODE_CONNECTING_NET);
       }

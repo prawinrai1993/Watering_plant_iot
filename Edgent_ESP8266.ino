@@ -1,6 +1,6 @@
 
 // Fill-in information from your Blynk Template here
-#define BLYNK_TEMPLATE_ID "TMPLa9N-tgoD"
+#define BLYNK_TEMPLATE_ID "TMPLUaS6cThQ"
 #define BLYNK_DEVICE_NAME "Nodemcu"
 
 #define BLYNK_FIRMWARE_VERSION        "0.1.0"
@@ -66,5 +66,5 @@ void setup()
 }
 
 void loop() {
-  BlynkEdgent.run();
+  runBlynkWithChecks();
 }
